@@ -7,6 +7,93 @@
 		],
 		"ForbiddenPrefixes": [
 		]
-	  }
+	  },
+	  {
+		"SelectorRegexp": "github[.]com",
+		"AllowedPrefixes": [		
+				"github.com/ghodss/yaml",
+				"github.com/gogo/protobuf/proto",
+				"github.com/gogo/protobuf/sortkeys",
+				"github.com/golang/glog",
+				"github.com/google/gofuzz",
+				"github.com/json-iterator/go",
+				"github.com/modern-go/concurrent",
+				"github.com/modern-go/reflect2"
+		]
+	  },
+	  {
+		"SelectorRegexp": "golang[.]org",
+		"AllowedPrefixes": [		
+				"golang.org/x/net/http2",
+				"golang.org/x/net/http2/hpack",
+				"golang.org/x/net/idna",
+				"golang.org/x/net/lex/httplex",
+				"golang.org/x/text/secure/bidirule",
+				"golang.org/x/text/transform",
+				"golang.org/x/text/unicode/bidi",
+				"golang.org/x/text/unicode/norm"
+		]
+	  }, 
+	  {
+		"SelectorRegexp": "gopkg[.]in",
+		"AllowedPrefixes": [		
+				"gopkg.in/inf.v0",
+				"gopkg.in/yaml.v2"
+		]
+	  },
+	  {
+		"SelectorRegexp": "k8s[.]io",
+		"AllowedPrefixes": [		
+				"k8s.io/kubernetes/api/core/v1",
+				"k8s.io/kubernetes/apimachinery/pkg/api/apitesting",
+				"k8s.io/kubernetes/apimachinery/pkg/api/apitesting/fuzzer",
+				"k8s.io/kubernetes/apimachinery/pkg/api/resource",
+				"k8s.io/kubernetes/apimachinery/pkg/apis/meta/fuzzer",
+				"k8s.io/kubernetes/apimachinery/pkg/apis/meta/v1",
+				"k8s.io/kubernetes/apimachinery/pkg/apis/meta/v1beta1",
+				"k8s.io/kubernetes/apimachinery/pkg/apis/meta/v1/unstructured",
+				"k8s.io/kubernetes/apimachinery/pkg/conversion",
+				"k8s.io/kubernetes/apimachinery/pkg/conversion/queryparams",
+				"k8s.io/kubernetes/apimachinery/pkg/fields",
+				"k8s.io/kubernetes/apimachinery/pkg/labels",
+				"k8s.io/kubernetes/apimachinery/pkg/runtime",
+				"k8s.io/kubernetes/apimachinery/pkg/runtime/schema",
+				"k8s.io/kubernetes/apimachinery/pkg/runtime/serializer",
+				"k8s.io/kubernetes/apimachinery/pkg/runtime/serializer/json",
+				"k8s.io/kubernetes/apimachinery/pkg/runtime/serializer/protobuf",
+				"k8s.io/kubernetes/apimachinery/pkg/runtime/serializer/recognizer",
+				"k8s.io/kubernetes/apimachinery/pkg/runtime/serializer/versioning",
+				"k8s.io/kubernetes/apimachinery/pkg/selection",
+				"k8s.io/kubernetes/apimachinery/pkg/types",
+				"k8s.io/kubernetes/apimachinery/pkg/util/errors",
+				"k8s.io/kubernetes/apimachinery/pkg/util/framer",
+				"k8s.io/kubernetes/apimachinery/pkg/util/intstr",
+				"k8s.io/kubernetes/apimachinery/pkg/util/json",
+				"k8s.io/kubernetes/apimachinery/pkg/util/naming",
+				"k8s.io/kubernetes/apimachinery/pkg/util/net",
+				"k8s.io/kubernetes/apimachinery/pkg/util/runtime",
+				"k8s.io/kubernetes/apimachinery/pkg/util/sets",
+				"k8s.io/kubernetes/apimachinery/pkg/util/validation",
+				"k8s.io/kubernetes/apimachinery/pkg/util/validation/field",
+				"k8s.io/kubernetes/apimachinery/pkg/util/yaml",
+				"k8s.io/kubernetes/apimachinery/pkg/watch",
+				"k8s.io/kubernetes/apimachinery/third_party/forked/golang/reflect",
+				"k8s.io/kubernetes/pkg/api/legacyscheme",
+				"k8s.io/kubernetes/pkg/apis/admissionregistration/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/apps/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/autoscaling/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/batch/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/certificates/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/core",
+				"k8s.io/kubernetes/pkg/apis/core/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/extensions",
+				"k8s.io/kubernetes/pkg/apis/extensions/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/extensions/v1beta1",
+				"k8s.io/kubernetes/pkg/apis/networking/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/policy/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/rbac/fuzzer",
+				"k8s.io/kubernetes/pkg/apis/storage/fuzzer"
+		]
+	  },
 	]
 }
